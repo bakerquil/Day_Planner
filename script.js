@@ -13,7 +13,7 @@ const current = moment().format('MMMM Do YYYY')
 
 let $dateHolder = $('#currentDay');
 $dateHolder.text(current)
-
+changeTab();
 
 
 $('.saveBtn').on('click',function(){
@@ -24,7 +24,7 @@ $('.saveBtn').on('click',function(){
 
    
 })
-changeTab();
+
 
 $('#9 .description').val(localStorage.getItem('9')); /// ask if there is a way to automate this
 $('#10 .description').val(localStorage.getItem('10'));
@@ -131,4 +131,8 @@ else {
     $('#17').addClass('future');
 }
 
+
+
 }
+
+
