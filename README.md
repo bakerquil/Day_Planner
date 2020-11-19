@@ -10,4 +10,3 @@ when you input the item into any field it will save it in local storage upon ref
 ![image](https://user-images.githubusercontent.com/63992745/98742048-be902780-237b-11eb-9016-a2a44fa06976.png)
 
 
-Still working on getting if there is no text content to turning it into grey on default.
